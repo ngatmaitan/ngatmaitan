@@ -5,13 +5,24 @@
 		<style>
 			body {height:100%; overflow-y:hidden;}
 
-			.with-bg-size
-			{
+			.with-bg-size{
 				background-image: url('images/8ball.jpg');
 				width: 100%;
 				height: 100%;
 				background-position: center;
 				background-size: cover;
+			}
+
+			.question{
+				top: 0;
+				position: absolute;
+				text-align: left;
+				color: black;
+				font-size: 400%;
+				z-index: 2000;
+				width: 50%;
+				margin-left: 50px;
+				margin-top: 250px;
 			}
 		</style>
 	</head>
@@ -21,6 +32,8 @@
 		<div class="with-bg-size" style="position:fixed; top:0px; left:0px; z-index:900; width:100%; overflow-y:hidden; overflow-x:hidden; margin:auto;"></div>
 			<img src="images/8ball.jpg" alt="">
 		</div>
+
+		<div class = "question">Need to make a decision?</div>
 
 	</body>
 </html>
