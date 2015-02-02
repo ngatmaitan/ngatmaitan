@@ -24,6 +24,37 @@
 				margin-left: 120px;
 				margin-top: 200px;
 			}
+			.button {
+				border-top: 1px solid #000000;
+				background: #000000;
+				background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#000000));
+				background: -webkit-linear-gradient(top, #ffffff, #000000);
+				background: -moz-linear-gradient(top, #ffffff, #000000);
+				background: -ms-linear-gradient(top, #ffffff, #000000);
+				background: -o-linear-gradient(top, #ffffff, #000000);
+				padding: 6px 12px;
+				-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+				border-radius: 8px;
+				-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+				-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+				box-shadow: rgba(0,0,0,1) 0 1px 0;
+				text-shadow: rgba(0,0,0,.4) 0 1px 0;
+				color: #ffffff;
+				font-size: 13px;
+				font-family: Georgia, serif;
+				text-decoration: none;
+				vertical-align: middle;
+			}
+			.button:hover {
+				border-top-color: #424242;
+				background: #424242;
+				color: #ffffff;
+			}
+			.button:active {
+				border-top-color: #1b435e;
+				background: #1b435e;
+			}
 		</style>
 	</head>
 
@@ -34,5 +65,7 @@
 		</div>
 
 		<div class = "question">Need to make a decision?</div>
+
+		<div class = "button">Enter</div>
 	</body>
 </html>
