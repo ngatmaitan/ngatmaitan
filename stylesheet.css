@@ -11,9 +11,10 @@ html {
 	color: black;
 	font-style: italic;
 	z-index: auto;
-	font-size: 350%;
+	font-size: 4em;
 	margin-left: 120px;
 	margin-top: 200px;
+	font-family: Times New Roman;
 }
 
 .myButton {
@@ -40,8 +41,8 @@ html {
 	font-weight:bold;
 	position: absolute;
 	padding:11px 23px;
-	left: 29%;
-	top: 42%;
+	left: 28%;
+	top: 45%;
 	text-decoration:none;
 	text-shadow:0px -1px 0px #2b665e;
 }
@@ -54,9 +55,12 @@ html {
 	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
 	background-color:#6c7c7c;
+	text-decoration: none;
+	color: white;
 }
 .myButton:active {
 	position: absolute;
-	top: 42.2%;
-	left: 29.2%;
+	top: 45.2%;
+	left: 28.2%;
+	color: white;
 }
