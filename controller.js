@@ -30,7 +30,7 @@ function hashAction(){
           loadContacts();
         break;
         default:
-          location.hash = "home";
+          location.hash = "";
       }
 }
 
